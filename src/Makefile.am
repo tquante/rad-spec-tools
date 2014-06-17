@@ -8,12 +8,14 @@ lib_LTLIBRARIES = librad-spec-tools.la
 librad_spec_tools_la_SOURCES = \
 	HistAnalysis.cxx \
 	SDPeak.cxx \
-	SDPeakTSF.cxx
+	SDPeakTSF.cxx \
+	SDPreCal.cxx 
 
 librad_spec_tools_la_headers = \
 	HistAnalysis.h \
 	SDPeak.h \
-	SDPeakTSF.h
+	SDPeakTSF.h \
+	SDPreCal.h
 
 pkginclude_HEADERS = $(librad_spec_tools_la_headers)
 

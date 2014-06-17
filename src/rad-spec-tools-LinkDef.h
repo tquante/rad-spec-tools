@@ -14,6 +14,10 @@
 #pragma link C++ class rspt::SDPeakTSF-;
 #pragma link C++ class rspt::MultiPeakShapeTSF-;
 
+// SDPreCal.h
+#pragma link C++ class SDPreCal-;
+
+
 #endif
 
 #endif // rad_spec_tools_LinkDef_h
